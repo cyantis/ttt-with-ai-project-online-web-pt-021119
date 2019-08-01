@@ -40,8 +40,8 @@ class Board
 
   def update(pos, player)
     if self.valid_move?(pos)
-      sport = self.position(pos)
-      sport = player.token
+      spot = self.position(pos)
+      spot = player.token
     end
   end
 
